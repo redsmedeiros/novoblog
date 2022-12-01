@@ -3,7 +3,10 @@
  const Footer = ()=>{
 
     return (
-        <div>Footer</div>
+        <footer className={styles.footer}>
+            <h3>Novo Blog</h3>
+            <p>Todos os direitos reservados</p>
+        </footer>
     )
  }
 
